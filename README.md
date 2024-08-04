@@ -23,7 +23,7 @@ A responsive React-based weather dashboard that displays current weather informa
 
 ## Demo
 
-[Link to the live demo](https://example.com) (replace with your actual demo link)
+[Link to the live demo](https://weather-dashboard-nu-eight.vercel.app/) (replace with your actual demo link)
 
 ![Screenshot](path_to_screenshot.png) (replace with an actual screenshot)
 
