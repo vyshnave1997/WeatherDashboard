@@ -1,0 +1,51 @@
+/* src/components/WeatherCard.css */
+* {
+  margin: 3px;
+}
+.sunrise-sunset {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* src/components/WeatherCard.css */
+
+.weather-description {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #555; /* Darker shade for contrast */
+  margin: 10px 0;
+  text-transform: capitalize; /* Capitalize first letter of each word */
+}
+
+.weather-info {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.weather-info-icon {
+  color: #1976d2; /* Use primary color for icons */
+}
+
+.sunrise-sunset {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

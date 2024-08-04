@@ -1,0 +1,85 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.error {
+  color: red;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: calc(100% - 120px);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.weather-card,
+.forecast {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.forecast-day {
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* src/App.css */
+
+body.dark-theme {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* src/App.css */
+.weather-card {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-theme {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Continue with existing styles */
